@@ -431,7 +431,7 @@ init -1500 python:
                 b = self.button_list[button]
                 i = b.images[image]
 
-                result = i.show((button, image) not in all_images, image, len(b.images))
+                result = i.show((button, image) not in unlocked_images, image, len(b.images))
 
                 # Default action for click.
 
@@ -449,7 +449,10 @@ init -1500 python:
                 else:
                     images = unlocked_images
 
-                index = images.index((button, image))
+                if (button, image) in images:
+                    index = images.index((button, image))
+                else:
+                    index = -1
 
                 if result.startswith('previous'):
                     index -= 1
