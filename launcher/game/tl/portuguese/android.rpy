@@ -1,0 +1,172 @@
+﻿# TODO: Translation updated at 2016-04-01 00:13
+
+translate portuguese strings:
+
+    # game/android.rpy:30
+    old "To build Android packages, please download RAPT, unzip it, and place it into the Ren'Py directory. Then restart the Ren'Py launcher."
+    new "To build Android packages, please download RAPT, unzip it, and place it into the Ren'Py directory. Then restart the Ren'Py launcher."
+
+    # game/android.rpy:31
+    old "A 32-bit Java Development Kit is required to build Android packages on Windows. The JDK is different from the JRE, so it's possible you have Java without having the JDK.\n\nPlease {a=http://www.oracle.com/technetwork/java/javase/downloads/index.html}download and install the JDK{/a}, then restart the Ren'Py launcher."
+    new "A 32-bit Java Development Kit is required to build Android packages on Windows. The JDK is different from the JRE, so it's possible you have Java without having the JDK.\n\nPlease {a=http://www.oracle.com/technetwork/java/javase/downloads/index.html}download and install the JDK{/a}, then restart the Ren'Py launcher."
+
+    # game/android.rpy:32
+    old "RAPT has been installed, but you'll need to install the Android SDK before you can build Android packages. Choose Install SDK to do this."
+    new "RAPT has been installed, but you'll need to install the Android SDK before you can build Android packages. Choose Install SDK to do this."
+
+    # game/android.rpy:33
+    old "RAPT has been installed, but a key hasn't been configured. Please create a new key, or restore android.keystore."
+    new "RAPT has been installed, but a key hasn't been configured. Please create a new key, or restore android.keystore."
+
+    # game/android.rpy:34
+    old "The current project has not been configured. Use \"Configure\" to configure it before building."
+    new "The current project has not been configured. Use \"Configure\" to configure it before building."
+
+    # game/android.rpy:35
+    old "Choose \"Build\" to build the current project, or attach an Android device and choose \"Build & Install\" to build and install it on the device."
+    new "Choose \"Build\" to build the current project, or attach an Android device and choose \"Build & Install\" to build and install it on the device."
+
+    # game/android.rpy:37
+    old "Attempts to emulate an Android phone.\n\nTouch input is emulated through the mouse, but only when the button is held down. Escape is mapped to the menu button, and PageUp is mapped to the back button."
+    new "Attempts to emulate an Android phone.\n\nTouch input is emulated through the mouse, but only when the button is held down. Escape is mapped to the menu button, and PageUp is mapped to the back button."
+
+    # game/android.rpy:38
+    old "Attempts to emulate an Android tablet.\n\nTouch input is emulated through the mouse, but only when the button is held down. Escape is mapped to the menu button, and PageUp is mapped to the back button."
+    new "Attempts to emulate an Android tablet.\n\nTouch input is emulated through the mouse, but only when the button is held down. Escape is mapped to the menu button, and PageUp is mapped to the back button."
+
+    # game/android.rpy:39
+    old "Attempts to emulate a televison-based Android console, like the OUYA or Fire TV.\n\nController input is mapped to the arrow keys, Enter is mapped to the select button, Escape is mapped to the menu button, and PageUp is mapped to the back button."
+    new "Attempts to emulate a televison-based Android console, like the OUYA or Fire TV.\n\nController input is mapped to the arrow keys, Enter is mapped to the select button, Escape is mapped to the menu button, and PageUp is mapped to the back button."
+
+    # game/android.rpy:41
+    old "Downloads and installs the Android SDK and supporting packages. Optionally, generates the keys required to sign the package."
+    new "Downloads and installs the Android SDK and supporting packages. Optionally, generates the keys required to sign the package."
+
+    # game/android.rpy:42
+    old "Configures the package name, version, and other information about this project."
+    new "Configures the package name, version, and other information about this project."
+
+    # game/android.rpy:43
+    old "Opens the file containing the Google Play keys in the editor.\n\nThis is only needed if the application is using an expansion APK. Read the documentation for more details."
+    new "Opens the file containing the Google Play keys in the editor.\n\nThis is only needed if the application is using an expansion APK. Read the documentation for more details."
+
+    # game/android.rpy:44
+    old "Builds the Android package."
+    new "Builds the Android package."
+
+    # game/android.rpy:45
+    old "Builds the Android package, and installs it on an Android device connected to your computer."
+    new "Builds the Android package, and installs it on an Android device connected to your computer."
+
+    # game/android.rpy:46
+    old "Builds the Android package, installs it on an Android device connected to your computer, then launches the app on your device."
+    new "Builds the Android package, installs it on an Android device connected to your computer, then launches the app on your device."
+
+    # game/android.rpy:48
+    old "Connects to an Android device running ADB in TCP/IP mode."
+    new "Connects to an Android device running ADB in TCP/IP mode."
+
+    # game/android.rpy:49
+    old "Disconnects from an Android device running ADB in TCP/IP mode."
+    new "Disconnects from an Android device running ADB in TCP/IP mode."
+
+    # game/android.rpy:50
+    old "Retrieves the log from the Android device and writes it to a file."
+    new "Retrieves the log from the Android device and writes it to a file."
+
+    # game/android.rpy:240
+    old "Copying Android files to distributions directory."
+    new "Copying Android files to distributions directory."
+
+    # game/android.rpy:304
+    old "Android: [project.current.name!q]"
+    new "Android: [project.current.name!q]"
+
+    # game/android.rpy:324
+    old "Emulation:"
+    new "Emulation:"
+
+    # game/android.rpy:333
+    old "Phone"
+    new "Phone"
+
+    # game/android.rpy:337
+    old "Tablet"
+    new "Tablet"
+
+    # game/android.rpy:341
+    old "Television"
+    new "Television"
+
+    # game/android.rpy:353
+    old "Build:"
+    new "Build:"
+
+    # game/android.rpy:361
+    old "Install SDK & Create Keys"
+    new "Install SDK & Create Keys"
+
+    # game/android.rpy:365
+    old "Configure"
+    new "Configure"
+
+    # game/android.rpy:369
+    old "Build Package"
+    new "Build Package"
+
+    # game/android.rpy:373
+    old "Build & Install"
+    new "Build & Install"
+
+    # game/android.rpy:377
+    old "Build, Install & Launch"
+    new "Build, Install & Launch"
+
+    # game/android.rpy:388
+    old "Other:"
+    new "Other:"
+
+    # game/android.rpy:396
+    old "Remote ADB Connect"
+    new "Remote ADB Connect"
+
+    # game/android.rpy:400
+    old "Remote ADB Disconnect"
+    new "Remote ADB Disconnect"
+
+    # game/android.rpy:404
+    old "Logcat"
+    new "Logcat"
+
+    # game/android.rpy:437
+    old "Before packaging Android apps, you'll need to download RAPT, the Ren'Py Android Packaging Tool. Would you like to download RAPT now?"
+    new "Before packaging Android apps, you'll need to download RAPT, the Ren'Py Android Packaging Tool. Would you like to download RAPT now?"
+
+    # game/android.rpy:490
+    old "Remote ADB Address"
+    new "Remote ADB Address"
+
+    # game/android.rpy:490
+    old "Please enter the IP address and port number to connect to, in the form \"192.168.1.143:5555\". Consult your device's documentation to determine if it supports remote ADB, and if so, the address and port to use."
+    new "Please enter the IP address and port number to connect to, in the form \"192.168.1.143:5555\". Consult your device's documentation to determine if it supports remote ADB, and if so, the address and port to use."
+
+    # game/android.rpy:502
+    old "Invalid remote ADB address"
+    new "Invalid remote ADB address"
+
+    # game/android.rpy:502
+    old "The address must contain one exactly one ':'."
+    new "The address must contain one exactly one ':'."
+
+    # game/android.rpy:506
+    old "The host may not contain whitespace."
+    new "The host may not contain whitespace."
+
+    # game/android.rpy:512
+    old "The port must be a number."
+    new "The port must be a number."
+
+    # game/android.rpy:538
+    old "Retrieving logcat information from device."
+    new "Retrieving logcat information from device."
+
